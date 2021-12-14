@@ -1,0 +1,23 @@
+{
+  "name": "to-do-list-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdnrn/to-do-list-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rdnrn/to-do-list-test/issues"
+  },
+  "homepage": "https://github.com/rdnrn/to-do-list-test#readme",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}
