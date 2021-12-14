@@ -1,5 +1,15 @@
 const stringLength = require('./stringLength');
 
-test('legth of "cats" equals 4', () => {
-  expect(stringLength('cats')).toBe(4);
+describe('stringLength tests', () => {
+  test('"cats" should equal to 4', () => {
+    expect(stringLength('cats')).toEqual(4);
+  });
+
+  test('string is longer than 10 chars', () => {
+    expect(() => stringLength('IntoTheUnknown')).toThrow();
+  });
+
+  test('empty string', () => {
+    expect(() => stringLength('')).toThrow();
+  });
 });

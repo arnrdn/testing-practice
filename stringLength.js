@@ -1,9 +1,8 @@
-function stringLength(string) {
-  if (string.length > 1 || string.length < 10) {
-    return string.length;
-  } else {
-    throw new Error('Length should be between 1 and 10 characters');
+const stringLength = (string) => {
+  if (string.length < 1 || string.length > 10) {
+    throw new Error("String length should be between 1 to 10 chars");
   }
-}
+  return string.length;
+};
 
 module.exports = stringLength;
