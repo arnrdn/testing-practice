@@ -1,4 +1,4 @@
-const stringLength = require('./stringLength');
+const stringLength = require('./1stringLength');
 
 describe('stringLength tests', () => {
   test('"cats" should equal to 4', () => {
